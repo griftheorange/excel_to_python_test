@@ -1,7 +1,7 @@
-import pandas
+import pandas as pd
 
 
-travel_doc = pandas.read_excel('./cities.xlsx')
+travel_doc = pd.read_excel('./cities.xlsx')
 cities = travel_doc.to_dict('records')
 
 print(travel_doc)
